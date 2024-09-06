@@ -1,7 +1,7 @@
 // @ts-nocheck
 // <!--GAMFC-->version base on commit 43fad05dcdae3b723c53c226f8181fc5bd47223e, time is 2023-06-22 15:20:02 UTC<!--GAMFC-END-->.
 // @ts-ignore
-// https://github.com/bia-pain-bache/BPB-Worker-Panel
+// https://github.com/bia-pain-bache/BPB-Worker-Panel，bpb.yousef.isegaro.com
 
 import { connect } from 'cloudflare:sockets';
 
@@ -10,7 +10,7 @@ import { connect } from 'cloudflare:sockets';
 let userID = 'd5ce84dd-8d87-432c-9690-2041823221a7';
 
 // https://www.nslookup.io/domains/bpb.yousef.isegaro.com/dns-records/
-const proxyIPs= ['bpb.yousef.isegaro.com','132.145.81.117'];
+const proxyIPs= ['146.70.175.116'];
 
 const defaultHttpPorts = ['80', '8080', '2052', '2082', '2086', '2095', '8880'];
 const defaultHttpsPorts = ['443', '8443', '2053', '2083', '2087', '2096'];
